@@ -1,0 +1,4 @@
+build/
+dist/
+pymcclient.egg-info/
+docs/_build/

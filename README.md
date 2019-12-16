@@ -19,7 +19,8 @@ In the `fuzzer/` folder, you will find a Python script that makes use of the [`a
 In the `scripts/` folder, you will find various things:
 - `mclf_loader`, a loader for trustlet binaries using the MCLF file format
 - `tbase_loader`, a loader that extracts the various components of a SBOOT image
-- `find_symbols`, a script that finds and renames the various tlApis/drApis stubs
+- `find_symbols`, a script that finds and renames the various tlApis/drApis stubs within trustlets
+- `find_symbols_mclib`, a script that finds and renames the various tlApis/drApis functions within the McLib
 
 The scripts are available both for IDA Pro and Ghidra, as we wanted our trainees to be able to use a free SRE.
 
